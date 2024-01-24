@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500;9..40,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.flex-g {
+    flex-grow: 1;
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.navbar {
+    margin-top: 30px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.list {
+    color: rgba(21, 20, 57, 0.40);
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.list1 {
+    color: #1E0E62;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.293px;
+}
+
+.list4 {
+    width: 30%;
+}
+
+.list8 {
+    border-radius: 100px;
+    background: #25DAC5;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+h3 {
+    max-width: 600px;
+    color: #1E0E62;
+    font-family: "DM Sans";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+}
+
+.email {
+    width: 60%;
+    height: 60px;
+    border-radius: 100px;
+    margin: 10px 0px;
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #15143966;
+    border: 2px solid #EBEAED;
+    padding-left: 10px;
+    outline: none;
+}
+
+.email1 {
+    margin-top: 30px;
+}
+
+.email3 {
+    color: #fff;
+    border-radius: 100px;
+    background: #25DAC5;
+}
+
+.p-1 {
+    color: #15143966;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 50px;
+}
+
+.p-2 {
+    color: var(--Colors-Text, rgba(21, 20, 57, 0.40));
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    max-width: 350px;
+}
+
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.width-100 {
+    width: 100%;
+}
